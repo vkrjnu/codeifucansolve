@@ -1,0 +1,100 @@
+baseurl = "codeifyoucansolve.herokuapp.com"
+languageCode = "en-us"
+title = "Software Engineer By Profession"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Vikas Kumar"
+	description = "Software Engineer who loves to cook code for Internet."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Software Engineer By Profession"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact Me!"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Software Engineer"
+		subtitle   = "Hey! Are you looking for a software engineer then you are on the right place."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "You've got what you need!"
+		description = "I am a software engineer by heart."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Vikas Kumar"
+            description = "Love to code."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Software Enginner"
+			description = "You can hire me as"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Part time employee"
+            description = "A freelancer"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Or"
+            description = "You can provide me a full time JOB."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "My Linkedin Profile"
+
+		[params.aside.button]
+			text = "Linkedin"
+			link = "https://in.linkedin.com/in/vikaskumar5739"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project? That's great! Give me a call or send me an email and i will get back to you as soon as possible!"
+		phone = "+91 9620489445"
+		email = "vikasmca2k11@gmail.com"
