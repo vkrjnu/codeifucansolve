@@ -1,4 +1,4 @@
-baseurl = "codeifyoucansolve.herokuapp.com"
+baseurl = "https://vikas-kumar.herokuapp.com/"
 languageCode = "en-us"
 title = "Software Engineer By Profession"
 theme = "hugo-creative-theme"
