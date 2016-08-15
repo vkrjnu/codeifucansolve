@@ -1,6 +1,6 @@
 baseurl = "https://vikas-kumar.herokuapp.com/"
 languageCode = "en-us"
-title = "Software Engineer By Profession"
+title = "Vikas Kumar"
 theme = "hugo-creative-theme"
 
 [params]
@@ -20,7 +20,7 @@ theme = "hugo-creative-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Vikas Kumar"
-	description = "Software Engineer who loves to cook code for Internet."
+	description = "Software Engineer who loves to cook code."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -28,12 +28,12 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "Software Engineer By Profession"
+		brand = "Vikas Kumar"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
+			services  = "Summary"
+			portfolio = "Resume"
 			contact   = "Contact Me!"
 
 
@@ -41,40 +41,40 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Software Engineer"
-		subtitle   = "Hey! Are you looking for a software engineer then you are on the right place."
+		subtitle   = "Hey! Are you looking for a software engineer who love to cook code for you then you are on the right place."
 		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
-		headline    = "You've got what you need!"
-		description = "I am a software engineer by heart."
+		headline    = "About Me!"
+		description = "I am Vikas Kumar from Bihar.I did Master of Computer Application from Jawaharlal Nehru University, New Delhi and Bachelor of Computer Application from, IGNOU."
 		buttonText  = "Get started!"
 
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "Me!"
 
         [[params.services.list]]
             icon = "fa-diamond"
-            title = "Vikas Kumar"
-            description = "Love to code."
+            title = "Software Engineer"
+            description = "@Byond.Travel"
 
         [[params.services.list]]
 			icon = "fa-paper-plane"
-			title = "Software Enginner"
-			description = "You can hire me as"
+			title = "Master of Computer Application"
+			description = "Jawaharlal Nehru University, New Delhi"
 
 		[[params.services.list]]
             icon = "fa-newspaper-o"
-            title = "Part time employee"
-            description = "A freelancer"
+            title = "Skills"
+            description = "Python, PHP and Go"
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Or"
-            description = "You can provide me a full time JOB."
+            title = "Experience"
+            description = "1.5 Years"
 
 
     # Portfolio modals
@@ -86,11 +86,11 @@ theme = "hugo-creative-theme"
 
     # Aside section
 	[params.aside]
-		headline = "My Linkedin Profile"
+		headline = "Please find my resume in below link."
 
 		[params.aside.button]
-			text = "Linkedin"
-			link = "https://in.linkedin.com/in/vikaskumar5739"
+			text = "Resume"
+			link = "https://www.dropbox.com/s/k1o1o5ii5pu4vln/Resume.docx.pdf?dl=0"
 
 	# Contact section
 	[params.contact]
