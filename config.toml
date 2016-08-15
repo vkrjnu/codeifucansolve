@@ -86,7 +86,7 @@ theme = "hugo-creative-theme"
 
     # Aside section
 	[params.aside]
-		headline = "Please find my resume in below link."
+		headline = "Please find my resume."
 
 		[params.aside.button]
 			text = "Resume"
