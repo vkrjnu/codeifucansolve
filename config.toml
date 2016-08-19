@@ -3,12 +3,12 @@ title = "Code If You Can Solve!"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = ""
-disqusShortname = "XXX"
+disqusShortname = "codeifyoucansolve"
 googleAnalytics = "XXX"
 
 [Author]
-    name = "Vikas Kumar"
-    profile = "https://google.com/+vikaskumar"
+    name = "Code If You Can Solve!"
+    profile = "https://plus.google.com/u/0/b/108302369847117270036/108302369847117270036"
 
 [Taxonomies]
     tag = "tags"
