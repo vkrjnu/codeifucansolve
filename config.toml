@@ -1,4 +1,4 @@
-baseurl = "http://codeifyoucansolve.heroku.com"
+baseurl = "https://codeifucansolve.herokuapp.com/"
 title = "Code If You Can Solve!"
 theme = "ghostwriter"
 languageCode = "en-us"
